@@ -1,0 +1,118 @@
+nav(){
+    .nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: $bgcolor1;
+  width: 100vw;
+  height: $width1;
+  display: flex;
+  text-align: center;
+  line-height: 1rem;
+  z-index: 3;
+}
+
+span {
+  width: 13%;
+  line-height: 1rem;
+}
+
+i {
+  flex: 1;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.icon {
+  display: inline-block;
+  height: 1rem;
+  color: $bgcolor;
+  font-size: $h3;
+}
+};
+mask(){
+.mask {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 4;
+}
+
+.con {
+  width: 70%;
+  height: 100vh;
+  background: $bgcolor;
+}
+
+.top {
+  width: 100%;
+  height: $width4;
+  background: $bgcolor1;
+  color: $bgcolor;
+  position: relative;
+
+  img {
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+
+  i {
+    height: 0.8rem;
+    line-height: 0.8rem;
+  }
+}
+
+.bottom {
+  width: 100%;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: flex;
+
+  .right1 {
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+  }
+}
+
+.left, .right {
+  flex: 1;
+}
+
+.bootm {
+  width: 90%;
+  height: $width1;
+  line-height: $width1;
+  background: #ccc;
+  font-size: $h2;
+  padding-left: 10%;
+  color: $bgcolor1;
+  i{
+      margin 10px;
+  }
+}
+
+.aa-enter {
+  left: -100vw;
+  opacity: 0;
+  transform: rotate(0);
+}
+
+.aa-enter-active {
+  transition: all 0.4s;
+}
+
+.aa-enter-to {
+  left: 0;
+  opacity: 1;
+  transform: rotate(100vw);
+}
+}
